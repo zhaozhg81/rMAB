@@ -18,11 +18,15 @@ See experiments_regret.csv to get regret by differnt time in the last column. Th
 Run main functions directly:
 
 main_original.py (standard MAB)
+
 main_linear_const.py (rMAB algorithms)
+
 main_dp_batch.py (DP method, users can modify dp_eplison described in DP method's paper "Seth Neel and Aaron Roth. Mitigating Bias in Adaptive Data Gathering via Differential Privacy." )
 
 python main_original.py
+
 python main_linear_const.py
+
 python main_dp_batch.py
 
 ####################################################################
